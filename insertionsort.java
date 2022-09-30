@@ -1,3 +1,5 @@
+/* This algorithm is one of the simplest algorithm with simple implementation
+   Basically, Insertion sort is efficient for small data values.*/
 // Java program for implementation of Insertion Sort
 class InsertionSort {
 	void sort(int arr[])
