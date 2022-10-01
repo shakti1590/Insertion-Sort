@@ -38,3 +38,4 @@ class InsertionSort {
 		printArray(arr);
 	}
 } 
+// this code contributed by shakti
