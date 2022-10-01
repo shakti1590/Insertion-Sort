@@ -34,4 +34,6 @@ class InsertionSort {
 
 		printArray(arr);
 	}
+	// time complexity :
+	// In worst case,each element is compared with all the other elements in the sorted array. For N elements there will N^2 comparisons. Therefore the time complexity is O(N^2)
 } /* This code is contributed by Shakti. */
