@@ -1,3 +1,5 @@
+// Insertion sort is a perfect sorting algorithm to insert a new value into an already sorted array.
+
 // Java program for implementation of Insertion Sort
 class InsertionSort {
 	void sort(int arr[])
@@ -27,7 +29,7 @@ class InsertionSort {
 	// Driver method
 	public static void main(String args[])
 	{
-		int arr[] = { 12, 11, 13, 5, 4 };
+		int arr[] = { 12, 10, 13, 5, 4 };
 
 		InsertionSort ob = new InsertionSort();
 		ob.sort(arr);
