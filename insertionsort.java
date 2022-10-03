@@ -28,10 +28,10 @@ class InsertionSort {
 	// Driver method
 	public static void main(String args[])
 	{
-		int arr[] = { 14, 15, 17, 5, 4 };
+		int arr[] = { 14, 15, 17, 9, 4 };
 
-		InsertionSort ob = new InsertionSort();
-		ob.sort(arr);
+		InsertionSort obj = new InsertionSort();
+		obj.sort(arr);
 
 		printArray(arr);
 	}
