@@ -15,7 +15,7 @@ class InsertionSort {
 		}
 	}
 
-	/* A utility function to print array of size n*/
+	
 	static void printArray(int arr[])
 	{
 		int n = arr.length;
@@ -36,4 +36,4 @@ class InsertionSort {
 		printArray(arr);
 	}
 } 
-// this code contributed by shakti
+
