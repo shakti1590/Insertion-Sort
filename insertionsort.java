@@ -1,5 +1,5 @@
 // Java program for implementation of Insertion Sort
-//Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands
+//Insert an element from unsorted array to its correct position in a sorted array
 
 class InsertionSort {
 	void sort(int arr[])
