@@ -11,7 +11,7 @@ class InsertionSort {
 				arr[j + 1] = arr[j];
 				j = j - 1;
 			}
-			//placement
+			
 			arr[j + 1] = key;
 		}
 	}
