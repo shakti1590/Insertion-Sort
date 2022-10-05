@@ -17,7 +17,7 @@ class InsertionSort {
 		}
 	}
 
-	//printing the array 
+	
 	public static void printArray(int arr[])
 	{
 		int n = arr.length;
