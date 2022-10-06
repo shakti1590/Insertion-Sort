@@ -1,6 +1,6 @@
 // Java program for implementation of Insertion Sort
 //Insert an element from unsorted array to its correct position in a sorted array
-
+import java.util.*;
 class InsertionSort {
 	void sort(int arr[])
 	{
@@ -18,10 +18,9 @@ class InsertionSort {
 	}
 
 	
-	public static void printArray(int arr[])
+	public static void printArray(int arr[],int p)
 	{
-		int n = arr.length;
-		for (int i = 0; i < n; ++i)
+		for (int i = 0; i < p; ++i)
 			System.out.print(arr[i] + " ");
 
 		System.out.println();
@@ -30,12 +29,19 @@ class InsertionSort {
 	// Driver method
 	public static void main(String args[])
 	{
-		int arr[] = { 14, 15, 17, 9, 4 };
-
+		//taking input from user
+		Scanner sc=new Scanner(System.in);  
+		//Enter size of input array
+		int p=sc.nextInt();
+		int[] arr = new int[p];  
+		for(int i=0; i<p; i++)  
+        	{  
+            	arr[i]=sc.nextInt();  
+        	}
 		InsertionSort obj = new InsertionSort();
 		obj.sort(arr);
 
-		printArray(arr);
+		printArray(arr,p);
 	}
 } 
 //Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.
