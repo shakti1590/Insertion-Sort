@@ -1,5 +1,6 @@
 // Java program for implementation of Insertion Sort
 //Insert an element from unsorted array to its correct position in a sorted array
+//
 
 class InsertionSort {
 	void sort(int arr[])
@@ -11,6 +12,7 @@ class InsertionSort {
 			while (j >= 0 && arr[j] > key) {
 				arr[j + 1] = arr[j];
 				j = j - 1;
+				J = j+1; // --------
 			}
 			
 			arr[j + 1] = key;
