@@ -44,4 +44,5 @@ class InsertionSort {
 		printArray(arr,p);
 	}
 } 
-//Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.
+//Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+//This code is contributed by Shakti Singh.
