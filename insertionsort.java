@@ -4,12 +4,12 @@ import java.util.*;
 class InsertionSort {
 	void sort(int arr[])
 	{
-		int n = arr.length;
+		int n = arr.length; //len of array
 		for (int i = 1; i < n; ++i) {
-			int key = arr[i];
+			int key = arr[i]; 
 			int j = i - 1;
 			while (j >= 0 && arr[j] > key) {
-				arr[j + 1] = arr[j];
+				arr[j + 1] = arr[j]; //for swapping
 				j = j - 1;
 			}
 			
