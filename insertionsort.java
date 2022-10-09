@@ -17,7 +17,7 @@ class InsertionSort {
 		}
 	}
 
-	
+	//method to print the array
 	public static void printArray(int arr[],int p)
 	{
 		for (int i = 0; i < p; ++i)
