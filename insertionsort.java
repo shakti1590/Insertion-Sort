@@ -1,5 +1,4 @@
 // Java program for implementation of Insertion Sort
-//Insert an element from unsorted array to its correct position in a sorted array
 import java.util.*;
 class InsertionSort {
 	//insertion sort function
