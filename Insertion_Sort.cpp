@@ -3,31 +3,31 @@
 using namespace std;
 
 // Function for insertion sort
-void Insertion_Sort(int array[], int size)
+void insertion_Sort(int arr[], int n)
 {
-    int temp, j;
+    int tmp, j;
 
-    for(int i = 1; i < size; i++)
+    for(int i = 1; i < n; i++)
     {
-        temp = array[i];
+        tmp = arr[i];
         j = i - 1;
 
         // Do swapping
-        while(j >= 0 && array[j] > temp)
+        while(j >= 0 && arr[j] > tmp)
         {
-            array[j + 1] = array[j];
+            arr[j + 1] = arr[j];
             j--;
         }
 
-        array[j + 1] = temp;
+        arr[j + 1] = tmp;
     }
 }
 
 // Function to print elements of array
-void Print_Array(int array[], int size)
+void print(int arr[], int n)
 {
-    for(int i = 0; i < size; i++)
-        cout << array[i] << " ";
+    for(int i = 0;i<n;i++)
+        cout << arr[i] << " ";
 
     cout << endl;
 }
@@ -35,9 +35,9 @@ void Print_Array(int array[], int size)
 // Driver Function
 int main()
 {
-    int array[] = {2, 4, 3, 1, 6, 8, 4};
-    Insertion_Sort(array, 7);
-    Print_Array(array, 7);
+    int arr[] = {2, 4, 3, 1, 6, 8, 4};
+    insertion_Sort(arr, 7);
+    print(arr, 7);
     return 0;
 }
 
