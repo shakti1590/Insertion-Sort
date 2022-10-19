@@ -20,3 +20,4 @@ public static void main(String[] args) {
 }  
 // sort and crisp
 // Contributed by Himanshu
+//Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time by comparisons. 
