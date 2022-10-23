@@ -22,3 +22,4 @@ public static void main(String[] args) {
 // Contributed by Himanshu
 
 //complexity:O(n)
+//contribute by Aniket 2.
