@@ -18,8 +18,4 @@ public static void main(String[] args) {
     System.out.println("Sorted Array:" + Arrays.toString(numArray));
 }  
 }  
-// sort and crisp
-// Contributed by Himanshu
 
-//complexity:O(n)
-// This code is contributed by Abhishek Kumar.
