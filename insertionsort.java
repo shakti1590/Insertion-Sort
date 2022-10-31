@@ -2,9 +2,11 @@
 public class InsertionSort {
 	/*Function to sort array using insertion sort*/
 	void sort(int arr[])
-	{
+	{	
+		//size of the array 
 		int n = arr.length;
 		for (int i = 1; i < n; ++i) {
+			//make a key for the comparison
 			int key = arr[i];
 			int j = i - 1;
 
@@ -19,7 +21,7 @@ public class InsertionSort {
 		}
 	}
 
-	
+	//printing the array
 	static void printArray(int arr[])
 	{
 		int n = arr.length;
@@ -42,4 +44,3 @@ public class InsertionSort {
 };
 
 
-/* This code is contributed by Shakti singh. */
