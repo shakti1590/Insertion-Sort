@@ -19,7 +19,7 @@ public class InsertionSort {
 		}
 	}
 
-	
+	//function to print the array
 	static void printArray(int arr[])
 	{
 		int n = arr.length;
@@ -32,7 +32,7 @@ public class InsertionSort {
 	// Driver method
 	public static void main(String args[])
 	{
-		int arr[] = { 12, 11, 13, 5, 6 };
+		int arr[] = { 121, 101, 130, 55, 606 };
 
 		InsertionSort ob = new InsertionSort();
 		ob.sort(arr);
@@ -42,4 +42,3 @@ public class InsertionSort {
 };
 
 
-/* This code is contributed by Shakti singh. */
